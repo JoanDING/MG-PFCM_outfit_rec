@@ -1,0 +1,10 @@
+***
+We save the meta data of IQON3000 in the file of "iqon_item_metadata_all.json" and "item_img_num.csv".
+The attribute values of fashion items are numeric, and the correnponding relationship is stored in the "att2num".
+***
+
+We first select the pair data that only contains top and bottom fashion items from the origin IQON3000 dataset by "iqon_data.py",
+the result is saved as "iqon_data_pair.json".
+
+Afterwards, we preprocess the pair data by "preprocess/data_preprocess.py".
+The results are saved in "preprocess/graph_data" and "preprocess/non-graph_data", which can be applied to graph method and non-graph method, respectively.
